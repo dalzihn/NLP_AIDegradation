@@ -1,0 +1,72 @@
+"""
+Vietnamese slang and acronym expansion module.
+Contains common Vietnamese internet slang and their full form translations.
+"""
+
+# Dictionary of common Vietnamese internet slang and acronyms
+VIETNAMESE_ACRONYMS = {
+    # Common acronyms
+    'ko': 'không',
+    'k': 'không',
+    'kh': 'không',
+    'kg': 'không',
+    'dc': 'được',
+    'đc': 'được',
+    'bt': 'bình thường',
+    'thjk': 'thích',
+    'thik': 'thích',
+    'thjk': 'thích',
+    'ng': 'người',
+    'ngta': 'người ta',
+    't': 'tôi',
+    'tui': 'tôi',
+    
+    # Common abbreviations
+    'dth': 'dễ thương',
+    'đx': 'được',
+    'trl': 'trả lời',
+    'nv': 'nhân viên',
+    'NV': 'nhân viên',  
+    'Nvien': 'nhân viên',
+    'pvu': 'phục vụ',
+    'r': 'rồi',
+    'ròi': 'rồi',
+    'z': 'vậy',
+    'zậy': 'vậy',
+    'v': 'vậy',
+    'hok': "không",
+    'ik': "đi",
+    
+    # Common phrases
+    'kbt': 'không biết',
+    'khongbiet': 'không biết',
+    'khoinghira': 'không nghĩ ra',
+    'khonghieu': 'không hiểu',
+    'hokbit': 'không biết',
+    'hokpit': 'không biết',
+    'bitroi': 'biết rồi',
+    'bikroi': 'biết rồi',
+    'ck': 'chồng',
+    'đỉm': 'điểm',
+    'vk': 'vợ',
+    'ny': 'người yêu',
+    'lm': 'làm',
+    'lm j': 'làm gì',
+    'lm sao': 'làm sao',
+    'j': 'gì',
+    'kcj': 'không có gì',
+    'gòi': 'rồi',
+    'ròi': 'rồi',
+    'rùi': 'rồi',
+    'iu': 'yêu',
+    'iuu': 'yêu',
+    'iu nhìu': 'yêu nhiều',
+    'nhìu': 'nhiều',
+    'nhju': 'nhiều',
+    'nhìu wa': 'nhiều quá',
+    'wa': 'quá',
+    'wá': 'quá',
+    'wua': 'qua',
+    'wê': 'quê',
+    'wên': 'quên',
+}
