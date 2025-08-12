@@ -27,6 +27,7 @@ VIETNAMESE_ACRONYMS = {
     "nv": "nhân viên",
     "NV": "nhân viên",
     "Nvien": "nhân viên",
+    'sp': 'sản phẩm',
     "pvu": "phục vụ",
     "r": "rồi",
     "ròi": "rồi",
