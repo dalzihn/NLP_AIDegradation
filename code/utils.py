@@ -1,5 +1,7 @@
 import re
 
+import emoji
+
 import pandas as pd
 
 from helper import *
@@ -96,3 +98,22 @@ def normalise_elongated_text(text: str) -> str:
     """
     normalised_text = re.sub(r"(.)\1{2,}", r"\1", text)
     return normalised_text
+
+
+def clean_emojis(
+    text: str
+    ) -> str:
+    """Remove emojis from text
+    
+    Args: 
+        text (str): Input text containing emojis
+    Returns:
+        str: Text with emojis removed
+    """
+    # Remove emojis 
+    text_no_emoji = emoji.replace_emoji(text, replace="")
+
+    # Remove extra whitespaces
+    text_no_emoji = re.sub(r'\s+', ' ', text_no_emoji).strip()
+
+    return text_no_emoji
