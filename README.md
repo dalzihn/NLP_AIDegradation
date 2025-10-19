@@ -6,9 +6,9 @@ The project devles into the topic of AI Degradation, where it experiemented on t
 
 The approach for simulating AI Degradation is illustrated in the following figure:
 
-![The training-workflow](assets/training_workflow1.png)
+![The training-workflow](./assets/training-workflow1.jpg)
 
-![The training-workflow](assets/training_workflow2.png)
+![The training-workflow](./assets/training-workflow2.jpg)
 
 - First, splitting the data into three subsets: training set, test set and simulation set.
 
